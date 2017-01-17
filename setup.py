@@ -10,8 +10,8 @@ version='1'
 requirements = list(parse_requirements('requirements.txt',
                                        session=pip.download.PipSession()))
 all_dependencies = [str(r.req) for r in requirements]
-install_requires = filter(lambda i: not i.startswith('git+https'), all_dependencies)
-dependency_links = filter(lambda i: i.startswith('git+https'), all_dependencies)
+install_requires = ['b_test']
+dependency_links = ['git+https://github.com/benvand/b_test.git']
 setup(
     name='test_a',
     version='1',
