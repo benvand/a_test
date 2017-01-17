@@ -24,8 +24,6 @@ setup(
         'git+https://github.com/benvand/b_test.git#egg=b_test-1.0.0'
     ],
     extras_require={
-        'dev': ['pytz',]
+        'test': ['pytz',]
     }
-
-
 )
