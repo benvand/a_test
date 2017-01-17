@@ -8,9 +8,9 @@ version='1.0.0'
 
 
 setup(
-    name='test_a',
+    name='a_test',
     version='1.0.0',
-    url='https://github.com/benvand/test_a',
+    url='https://github.com/benvand/a_test',
     license='MIT',
     author='benvand',
     description='A',
@@ -24,7 +24,7 @@ setup(
         'git+https://github.com/benvand/b_test.git#egg=b_test-1.0.0'
     ],
     extras_require={
-        'dev': ['ipython',]
+        'dev': ['pytz',]
     }
 
 
