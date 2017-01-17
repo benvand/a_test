@@ -21,7 +21,7 @@ setup(
         'b_test==1.0.0',
     ],
     dependency_links=[
-        'git+https://github.com/benvand/b_test.git#egg=c_test-1.0.0'
+        'git+https://github.com/benvand/b_test.git#egg=b_test-1.0.0'
     ],
     extras_require={
         'dev': ['ipython',]
